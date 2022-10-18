@@ -92,19 +92,19 @@ const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 */
 
-const now = 2037;
-const ageDmitriy = now - 1991;
-const ageSarah = now - 2018;
-console.log(now - 1991 > now - 2018);
+// const now = 2037;
+// const ageDmitriy = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(now - 1991 > now - 2018);
 
-console.log(25 - 10 - 5); // left to right
+// console.log(25 - 10 - 5); // left to right
 
-let x, y;
-x = y = 25 - 10 - 5; // assignment only 2 precedece but substraction has a 12 precedece (x = y = 10) - right to left
-console.log(x, y);
+// let x, y;
+// x = y = 25 - 10 - 5; // assignment only 2 precedece but substraction has a 12 precedece (x = y = 10) - right to left
+// console.log(x, y);
 
-const averageAge = (ageDmitriy + ageSarah) / 2;
-console.log(ageDmitriy, ageSarah, averageAge);
+// const averageAge = (ageDmitriy + ageSarah) / 2;
+// console.log(ageDmitriy, ageSarah, averageAge);
 
 // Coiding challenge
 // const massMark = 78;
