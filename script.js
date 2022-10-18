@@ -102,3 +102,6 @@ console.log(25 - 10 - 5); // left to right
 let x, y;
 x = y = 25 - 10 - 5; // assignment only 2 precedece but substraction has a 12 precedece (x = y = 10) - right to left
 console.log(x, y);
+
+const averageAge = (ageDmitriy + ageSarah) / 2;
+console.log(ageDmitriy, ageSarah, averageAge);
