@@ -277,3 +277,69 @@ console.log(now - 1991 > now - 2018);
 // } else {
 //   console.log("Someone else should drive...");
 // }
+
+// 3 coding challenge
+
+// const averageDolphins = (96 + 108 + 89) / 3;
+// const averageDKoalas = (88 + 91 + 110) / 3;
+
+// if (averageDolphins > averageDKoalas) {
+//   console.log(`The winner is Dolphins with average score ${averageDolphins}!`);
+// } else {
+//   console.log(`The winner is Koalas with average score ${averageDKoalas}!`);
+// }
+
+// const firstScoreDolphins = 96;
+// const secondtScoreDolphins = 108;
+// const thirdScoreDolphins = 89;
+
+// const firstScoreKoalas = 88;
+// const secondtScoreKoalas = 91;
+// const thirdScoreKoalas = 110;
+
+// if (firstScoreDolphins > firstScoreKoalas) {
+//   console.log("First match win Dolphins!");
+// } else {
+//   console.log("First match win Koalas!");
+// }
+// if (secondtScoreDolphins > secondtScoreKoalas) {
+//   console.log("Second match win Dolphins!");
+// } else {
+//   console.log("Second match win Koalas!");
+// }
+// if (thirdScoreDolphins > thirdScoreKoalas) {
+//   console.log("Third match win Dolphins!");
+// } else {
+//   console.log("Third match win Koalas!");
+// }
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreDKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreDKoalas);
+
+// if (scoreDolphins > scoreDKoalas) {
+//   console.log("Dolphins win the trophy!");
+// } else if (scoreDKoalas > scoreDolphins) {
+//   console.log("Koalas win the trophy!");
+// } else if (scoreDolphins === scoreDKoalas) {
+//   console.log("Both win the trophy!");
+// }
+
+// BONUS 1
+const scoreDolphins = (101 + 112 + 101) / 3;
+const scoreKoalas = (109 + 101 + 111) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreKoalas >= 100) {
+  console.log("Dolphins win the trophy!");
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy!");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Both win the trophy!");
+} else {
+  console.log("No one win the trophy!");
+}
