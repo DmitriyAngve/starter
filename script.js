@@ -105,3 +105,28 @@ console.log(x, y);
 
 const averageAge = (ageDmitriy + ageSarah) / 2;
 console.log(ageDmitriy, ageSarah, averageAge);
+
+// Coiding challenge
+// const massMark = 78;
+// const heightMark = 1.69;
+
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const massMark = 95;
+// const heightMark = 1.88;
+
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMImark = massMark / heightMark ** 2;
+// const BMIjohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMImark > BMIjohn;
+// console.log(BMImark, BMIjohn, markHigherBMI);
+
+const firstName = "Dmitriy";
+const job = "student";
+const birthYear = 1988;
+const year = 2037;
+
+const dmitriy = "I'm" + firstName + ", a " + (year - birthYear);
