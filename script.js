@@ -124,9 +124,24 @@ console.log(ageDmitriy, ageSarah, averageAge);
 // const markHigherBMI = BMImark > BMIjohn;
 // console.log(BMImark, BMIjohn, markHigherBMI);
 
-const firstName = "Dmitriy";
-const job = "student";
-const birthYear = 1988;
-const year = 2037;
+// const firstName = "Dmitriy";
+// const job = "student";
+// const birthYear = 1988;
+// const year = 2037;
 
-const dmitriy = "I'm" + firstName + ", a " + (year - birthYear);
+// const dmitriy =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// console.log(dmitriy);
+
+// const dmitriyNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(dmitriyNew);
+
+// console.log(`Just regular string...`);
+
+// console.log("String with \n\
+// multiple \n\
+// lines");
+
+// console.log(`String
+// multiple
+// lines`);
