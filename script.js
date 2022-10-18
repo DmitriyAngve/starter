@@ -106,7 +106,7 @@ console.log(now - 1991 > now - 2018);
 // const averageAge = (ageDmitriy + ageSarah) / 2;
 // console.log(ageDmitriy, ageSarah, averageAge);
 
-// Coiding challenge
+// Coding challenge
 // const massMark = 78;
 // const heightMark = 1.69;
 
@@ -163,3 +163,35 @@ console.log(now - 1991 > now - 2018);
 //   century = 21;
 // }
 // console.log(century);
+
+// Second coding Challenge
+
+const massMark = 78;
+const heightMark = 1.69;
+
+const massJohn = 92;
+const heightJohn = 1.95;
+
+// const massMark = 95;
+// const heightMark = 1.88;
+
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+const BMImark = massMark / heightMark ** 2;
+const BMIjohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMImark > BMIjohn;
+
+if (BMImark > BMIjohn) {
+  console.log(`Mark's BMI is higher than John's!`);
+} else {
+  console.log(`John's BMI is higher than Mark's!`);
+}
+
+if (BMImark > BMIjohn) {
+  console.log(`Mark's BMI ${BMImark} is higher than John's ${BMIjohn}!`);
+} else {
+  console.log(`John's BMI is higher than Mark's!`);
+}
+
+// console.log(BMImark, BMIjohn, markHigherBMI);
