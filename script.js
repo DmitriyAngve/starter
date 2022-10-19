@@ -398,3 +398,8 @@ console.log(now - 1991 > now - 2018);
 // } else {
 //   console.log("Not a valid day!");
 // }
+
+const age = 23;
+age >= 18
+  ? console.log("I like to drink beer")
+  : console.log("I like to drink water");
