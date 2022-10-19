@@ -344,6 +344,20 @@ console.log(now - 1991 > now - 2018);
 //   console.log("No one win the trophy!");
 // }
 
+// const day = "";
+// switch (day) {
+//   case "1":
+//     console.log("Its one");
+//     break;
+//   case "2":
+//     console.log("Its two");
+//     break;
+//   case "3":
+//   case "4":
+//   default:
+//     console.log("Its nothing");
+// }
+
 const day = "monday";
 
 switch (day) {
@@ -365,6 +379,6 @@ switch (day) {
   case "sunday":
     console.log("Enjoy the weekend ;D");
     break;
-  default;
-    console.log('Not a valid day!')
+  default:
+    console.log("Not a valid day!");
 }
