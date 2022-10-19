@@ -399,7 +399,20 @@ console.log(now - 1991 > now - 2018);
 //   console.log("Not a valid day!");
 // }
 
-const age = 23;
-age >= 18
-  ? console.log("I like to drink beer")
-  : console.log("I like to drink water");
+// const age = 25;
+// // age >= 18
+// //   ? console.log("I like to drink beer")
+// //   : console.log("I like to drink water");
+
+// const drink = age >= 18 ? "beer" : "water";
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//   drink2 = "beer";
+// } else {
+//   drink2 = "water";
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 18 ? "beer" : "water"}`);
